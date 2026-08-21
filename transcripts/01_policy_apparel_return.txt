@@ -1,0 +1,6 @@
+============================================================
+POLICY QUESTION 1 (apparel return window)
+============================================================
+User input: How many days do I have to return apparel?
+Final answer: {'answer': 'Apparel and footwear items purchased on Flipkart can be returned within 14 days of delivery.', 'source': 'policy_kb', 'confidence': 0.6742}
+Full state snapshot: intent=policy, blocked=False, last_order_id=None

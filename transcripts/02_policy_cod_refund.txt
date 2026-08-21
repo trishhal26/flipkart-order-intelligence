@@ -1,0 +1,6 @@
+============================================================
+POLICY QUESTION 2 (COD refund timeline)
+============================================================
+User input: When will I get my refund if I paid cash on delivery?
+Final answer: {'answer': "For Cash on Delivery orders, refunds are processed to the customer's bank account within 7-10 business days after the returned item is received and quality-checked at the warehouse.", 'source': 'policy_kb', 'confidence': 0.7469}
+Full state snapshot: intent=policy, blocked=False, last_order_id=None

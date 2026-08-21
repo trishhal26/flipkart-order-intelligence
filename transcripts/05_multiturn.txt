@@ -1,0 +1,10 @@
+============================================================
+MULTI-TURN CONVERSATION (state carried across turns)
+============================================================
+Turn 1 - User: Will order #7788 likely be returned?
+Turn 1 - Answer: This order has a predicted return probability of 0.6245 (High risk).
+Turn 1 - last_order_id: 7788
+Turn 2 - User: What about the return policy for that same order's category?
+Turn 2 - Answer: I don't have a confidently relevant policy for that question (top retrieved similarity 0.5234 < threshold 0.6). Please contact support directly for this query.
+Turn 2 - Conversation history length: 2
+Full history: [{'user': 'Will order #7788 likely be returned?', 'assistant': 'This order has a predicted return probability of 0.6245 (High risk).'}, {'user': "What about the return policy for that same order's category?", 'assistant': "I don't have a confidently relevant policy for that question (top retrieved similarity 0.5234 < threshold 0.6). Please contact support directly for this query."}]

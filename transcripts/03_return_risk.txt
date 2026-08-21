@@ -1,0 +1,6 @@
+============================================================
+RETURN-RISK QUESTION
+============================================================
+User input: Will order #7788 likely be returned?
+Final answer: {'answer': 'This order has a predicted return probability of 0.6245 (High risk).', 'source': 'return_risk_tool', 'confidence': 0.6245}
+Full state snapshot: intent=return_risk, blocked=False, last_order_id=7788

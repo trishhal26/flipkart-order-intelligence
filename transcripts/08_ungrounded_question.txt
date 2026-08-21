@@ -1,0 +1,6 @@
+============================================================
+UNGROUNDED QUESTION (no relevant policy chunk)
+============================================================
+User input: Can I pay my electricity bill through Flipkart?
+Final answer: {'answer': "I don't have a confidently relevant policy for that question (top retrieved similarity 0.5501 < threshold 0.6). Please contact support directly for this query.", 'source': 'policy_kb', 'confidence': 0.5501}
+Full state snapshot: intent=policy, blocked=False, last_order_id=None
