@@ -5,21 +5,24 @@ a product-image categoriser (Part 2), and a LangGraph support agent (Part 3) tha
 as real tools alongside a policy-question RAG pipeline.
 
 ## Repository Structure
+
+```
 flipkart-order-intelligence/
-├── generate_orders.py # Part 1: seeded dataset generator
-├── orders_dataset.csv # Part 1: generated dataset (6,000 rows)
+├── generate_orders.py                          # Part 1: seeded dataset generator
+├── orders_dataset.csv                          # Part 1: generated dataset (6,000 rows)
 ├── notebooks/
-│ ├── part1_return_risk_analysis.ipynb # Part 1: EDA, preprocessing, baseline
-│ ├── part1_return_risk_modeling.ipynb # Part 1: LR/RF tuning, SHAP, subgroup analysis
-│ ├── part2_product_image_categorizer.ipynb # Part 2: transfer learning classifier
-│ ├── part3_support_agent.ipynb # Part 3: LangGraph agent
-│ ├── models/
-│ │ ├── return_risk_model.pkl # Part 1 saved artifact
-│ │ └── product_classifier.pt # Part 2 saved artifact
-│ └── data/
-│ └── sample_images/ # Part 2: 7 real exported test images
-├── transcripts/ # Part 3: 8 saved test conversation transcripts
+│   ├── part1_return_risk_analysis.ipynb        # Part 1: EDA, preprocessing, baseline
+│   ├── part1_return_risk_modeling.ipynb        # Part 1: LR/RF tuning, SHAP, subgroup analysis
+│   ├── part2_product_image_categorizer.ipynb   # Part 2: transfer learning classifier
+│   ├── part3_support_agent.ipynb               # Part 3: LangGraph agent
+│   ├── models/
+│   │   ├── return_risk_model.pkl               # Part 1 saved artifact
+│   │   └── product_classifier.pt               # Part 2 saved artifact
+│   └── data/
+│       └── sample_images/                      # Part 2: 7 real exported test images
+├── transcripts/                                # Part 3: 8 saved test conversation transcripts
 └── README.md
+```
 
 ## Setup
 
